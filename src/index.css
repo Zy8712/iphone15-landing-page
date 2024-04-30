@@ -122,3 +122,18 @@ canvas {
     @apply opacity-0 translate-y-[100px]
   }
 }
+
+html::-webkit-scrollbar {
+  background-color: black;
+  width: 5px;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, white), color-stop(1, gold));
+  border-radius: 10px;
+}
